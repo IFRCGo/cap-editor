@@ -13,9 +13,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - uses: bahmutov/npm-install@v1
+      - uses: pnpm/action-setup@v3
         with:
-          useLockFile: false
+          version: 8
+          run_install: |
+            - recursive: true
+              args: [--frozen-lockfile, --strict-peer-dependencies]
 
       - name: Create test private key for signing alerts
         run: ssh-keygen -m PKCS8 -t ecdsa -f $(pwd)/test-key
