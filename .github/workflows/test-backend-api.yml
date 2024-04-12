@@ -30,3 +30,9 @@ jobs:
           VERIFIER_EMAIL: ifrc@example.com
           PRIVATE_KEY_FILENAME: test-key
           TLS_DIRECTORY: ./
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 'coverage-api'
+          path: './coverage-api'
+

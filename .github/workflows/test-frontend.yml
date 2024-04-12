@@ -22,3 +22,9 @@ jobs:
 
       - name: Run frontend component tests
         run: npm run test:frontend
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 'coverage-frontend'
+          path: './coverage-frontend'
+

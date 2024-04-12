@@ -46,3 +46,8 @@ jobs:
         env:
           NODE_ENV: test
           PRIVATE_KEY_FILENAME: test-key
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 'coverage-e2e'
+          path: './coverage-e2e'
