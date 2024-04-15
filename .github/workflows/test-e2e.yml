@@ -34,15 +34,15 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.json') }}-
 
       - name: Build frontend
-        run: npm run build
+        run: pnpm run build
         env:
           NODE_ENV: test
 
       - name: Run end-to-end tests
         run: |
           # Run Next.js frontend in background
-          npm run start &
-          npm run test:e2e
+          pnpm run start &
+          pnpm run test:e2e
         env:
           NODE_ENV: test
           PRIVATE_KEY_FILENAME: test-key

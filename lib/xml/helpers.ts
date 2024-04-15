@@ -1,4 +1,4 @@
-import { Alert } from ".prisma/client";
+import { Alert } from "@prisma/client";
 import { Capgen } from "capgen";
 import { XMLBuilder } from "fast-xml-parser";
 
