@@ -1,4 +1,4 @@
-import { Role } from "../../src/generated/client";
+import { Role } from "../../generated/client";
 import { DefaultSession } from "next-auth";
 
 export type Resource = {

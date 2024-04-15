@@ -1,4 +1,4 @@
-import { AlertingAuthority } from "../../../src/generated/client";
+import { AlertingAuthority } from "../../../generated/client";
 import { randomBytes, randomUUID } from "crypto";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { getServerSession } from "next-auth";

@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, test } from "@jest/globals";
-import { Prisma } from "../../src/generated/client";
+import { Prisma } from "../../generated/client";
 import { randomUUID } from "crypto";
 import { DateTime } from "luxon";
 import { getDocument, queries } from "pptr-testing-library";

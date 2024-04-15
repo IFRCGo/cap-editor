@@ -1,5 +1,5 @@
 import { t, Trans } from "@lingui/macro";
-import { Alert as DBAlert } from "../src/generated/client";
+import { Alert as DBAlert } from "../generated/client";
 import { useSession } from "next-auth/react";
 import Head from "next/head";
 import Link from "next/link";

@@ -1,5 +1,5 @@
 import { expect } from "@jest/globals";
-import { Role } from "../../src/generated/client";
+import { Role } from "../../generated/client";
 import { getDocument, queries } from "pptr-testing-library";
 import { ElementHandle } from "puppeteer";
 import quotedPrintable from "quoted-printable";

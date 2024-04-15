@@ -1,5 +1,5 @@
 import { t, Trans } from "@lingui/macro";
-import { AlertStatus, Role } from "../../src/generated/client";
+import { AlertStatus, Role } from "../../generated/client";
 import { ShareOutline } from "@rsuite/icons";
 import "ol/ol.css";
 import { useState } from "react";

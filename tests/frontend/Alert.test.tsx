@@ -1,7 +1,7 @@
 import { describe, expect, test } from "@jest/globals";
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
-import { Alert as DBAlert  } from "../../src/generated/client";
+import { Alert as DBAlert  } from "../../generated/client";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { randomUUID } from "crypto";

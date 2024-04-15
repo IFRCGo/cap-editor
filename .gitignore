@@ -39,3 +39,8 @@ next-env.d.ts
 
 docker-volumes/
 _site
+
+prisma/dbml
+coverage
+coverage-*
+generated

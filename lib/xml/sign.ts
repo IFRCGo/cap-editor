@@ -1,7 +1,7 @@
 import { webcrypto } from "node:crypto";
 import { Application, Parse, SignedXml } from "xmldsigjs";
 
-import { Alert } from "../../src/generated/client";
+import { Alert } from "../../generated/client";
 import { getPrivateKey } from "../crypto";
 import { formatAlertAsXML } from "./helpers";
 import { CAPV12JSONSchema } from "../types/cap.schema";

@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, jest } from "@jest/globals";
-import { Prisma, PrismaClient } from "../../src/generated/client";
+import { Prisma, PrismaClient } from "../../generated/client";
 import { spawnSync } from "child_process";
 import path from "path";
 

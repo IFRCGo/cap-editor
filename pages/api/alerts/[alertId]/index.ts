@@ -1,4 +1,4 @@
-import { Prisma } from "../../../../src/generated/client";
+import { Prisma } from "../../../../generated/client";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { getServerSession } from "next-auth";
 import { ApiError } from "next/dist/server/api-utils";
