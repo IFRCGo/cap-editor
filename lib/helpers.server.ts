@@ -1,4 +1,4 @@
-import { AlertingAuthority } from "@prisma/client";
+import { AlertingAuthority } from "../src/generated/client";
 import { XMLParser } from "fast-xml-parser";
 import { createHash } from "node:crypto";
 

@@ -1,5 +1,5 @@
 import { t, Trans } from "@lingui/macro";
-import { Alert, AlertStatus } from "@prisma/client";
+import { AlertStatus } from "../../src/generated/client";
 import { GetServerSideProps } from "next";
 import { getServerSession, Session } from "next-auth";
 import { useSession } from "next-auth/react";

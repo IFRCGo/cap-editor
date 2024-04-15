@@ -1,4 +1,4 @@
-import { Prisma } from "@prisma/client";
+import { Prisma } from "../../../../../src/generated/client";
 import { randomUUID } from "crypto";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { getServerSession } from "next-auth";

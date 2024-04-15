@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, jest } from "@jest/globals";
-import { Prisma, PrismaClient } from "@prisma/client";
+import { Prisma, PrismaClient } from "../../src/generated/client";
 import { spawnSync } from "child_process";
 import { randomUUID } from "crypto";
 import path from "path";

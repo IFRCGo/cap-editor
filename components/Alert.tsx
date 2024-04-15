@@ -1,5 +1,5 @@
 import { Trans } from "@lingui/macro";
-import { Alert as DBAlert } from "@prisma/client";
+import { Alert as DBAlert } from "../src/generated/client";
 import GlobalIcon from "@rsuite/icons/Global";
 import Image from "next/image";
 import Link from "next/link";

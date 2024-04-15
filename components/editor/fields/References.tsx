@@ -1,5 +1,5 @@
 import { t } from "@lingui/macro";
-import { Alert } from "@prisma/client";
+import { Alert } from "../../../src/generated/client";
 import { DropdownField, FieldProps } from "./common";
 import { useToasterI18n } from "../../../lib/useToasterI18n";
 import { useState } from "react";

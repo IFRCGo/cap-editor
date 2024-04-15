@@ -1,7 +1,7 @@
 import { describe, expect, test } from "@jest/globals";
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
-import { Alert as DBAlert } from "@prisma/client";
+import { Alert as DBAlert  } from "../../src/generated/client";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { randomUUID } from "crypto";
@@ -17,7 +17,10 @@ i18n.load({ en: messages });
 i18n.activate("en");
 const TestingProvider = ({ children }: any) => {
   return (
-    <I18nProvider i18n={i18n} forceRenderOnLocaleChange={true}>
+    <I18nProvider
+        i18n={i18n}
+        forceRenderOnLocaleChange={true}
+    >
       {children}
     </I18nProvider>
   );
